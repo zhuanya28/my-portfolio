@@ -27,6 +27,7 @@ import whisperedHues from "./media/whispered-hues.png"
 import coralReefs from "./media/coral-reefs.png"
 import nyuadPerformingArtsPoster from "./media/nyuad-performing-arts-poster.png"
 import nyuadNationalDayPoster from "./media/nyuad-national-day.jpg"
+import doYouEvenCare from "./media/do-you-even-care.png"
 
 export const webDevNDes = [
   {
@@ -102,6 +103,16 @@ export const webDevNDes = [
 
 export const digitalArtNGraphDesign = [
 
+  {
+    id: 17,
+    name: "Do you even care?",
+    date: "january 2024",
+    role: "Adobe Premier Pro, Stable Diffusion, 11Labs",
+    media: doYouEvenCare,
+    description:
+      "this short film is supposed to provoke reflection and raise awareness of not only the algorithmic bias that is reproduced by AI models, but also to highlight the relationship that each of us inevitably has with the technology. Created using Stable Diffusion model on Hugging Face, stock videos from Pexels.com & 11Labs voice generator.",
+    link: "https://youtu.be/bm1us5O8Yx0?si=2mrWJTBjkROV9G8I"
+  },
   {
     id: 16,
     name: "NYUAD Performing Arts Info Session",
