@@ -1,0 +1,236 @@
+
+/* COLOR PALETTE
+#FAF0E6
+#B9B4C7
+#5C5470
+#352F44 */
+
+::selection { 
+  background-color: #352F44;
+  /* Change this to the background color you want */
+  color: #FAF0E6;
+  /* Change this to the text color you want */
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* font-family: 'Inconsolata', monospace; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* MENU */
+.navbar-dark{
+  background-color: #352F44;
+}
+
+.navbar-brand{
+  color:#B9B4C7;
+  font-weight: 800;
+}
+.menu-items{
+  color: #FAF0E6;
+    transition: all 0.3s ease;
+  text-decoration: none;;
+}
+.menu-items:hover{
+  color:#B9B4C7;
+
+  text-decoration:line-through;
+  transition: all 0.3s ease;
+
+}
+
+.menu-items.active{
+  color:#FAF0E6;
+  transition: all 0.3s ease;
+  text-decoration:line-through;
+
+}
+
+.menu-items:active{
+  color:#FAF0E6;
+  text-decoration: none;
+
+}
+
+
+.contactIcons{
+  color: #B9B4C7;
+  transition: all 0.3s ease;
+}
+
+.contactIcons:hover{
+  color: #FAF0E6;
+}
+
+
+
+
+/* INTRODUCTION */
+.introduction{
+
+  margin: 5%;
+  margin-top: 2%;
+}
+
+.introName{
+  font-weight: bold;
+}
+.aboutMeDiv{
+  margin-top: 4%;
+}
+.segment{
+  color: #5C5470;
+}
+
+.aboutMeText{
+  font-weight:300;
+}
+.boldText{
+  font-weight: 600;
+}
+
+.boldText:hover{
+  color:#352F44;
+}
+.inTextA{
+  color: #5C5470;
+}
+
+.skillsDiv{
+  margin-top: 10%;
+}
+
+.skillsSet{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.skillsSetText{
+  font-size: 1.5rem;
+  font-weight:300;
+}
+
+/* PROJECTS */
+
+.projects{
+ margin: 5%;
+ margin-top: 2%;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-weight: 400;
+
+  display: block;
+}
+
+
+.projectDescription {
+  transition: height 0.5s ease-in-out;
+  height: 0;
+  overflow: hidden;
+}
+
+.expandedProject .projectDescription {
+  height: auto;
+}
+
+
+.projectFirstPart{
+  display: grid;
+  grid-column: 90% 10%;
+}
+
+.projectFirstPartInfo{
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.projectFirstPartArrow{
+  grid-row: 1;
+  grid-column: 2;
+  text-align: right;
+}
+
+.button-container {
+  display:block;
+}
+.projectsImages{
+  width: 50vw;
+  align-content: center;
+}
+
+.projectName{
+  font-weight: bold;
+}
+.projectName:hover{
+color: #352F44;
+text-decoration:line-through;
+cursor: pointer;
+ transition: all 0.3s ease;
+}
+.projectDate{
+  /* font-family: 'Montserrat', sans-serif; */
+  color: #5C5470;
+  font-weight: 400;
+  font-size: medium;
+}
+
+.projectMedium, .projectRole {
+  font-weight: 800;
+}
+
+.projectLink{
+  color: #5C5470;
+  text-decoration: none;
+  margin-bottom: 1%;
+}
+
+.projectLink:hover {
+  color: #B9B4C7;
+  text-decoration: #B9B4C7;
+  text-decoration: underline;
+}
+
+
+.arrow {
+  color:#5C5470;
+  transform: rotate(90deg);
+}
+
+.arrow:hover{
+  color:#FAF0E6;
+}
+
+.arrow.rotate{
+  transform: rotate(0deg);
+}
+
+.btn-arrow {
+  background-color: rgb(225, 224, 224);
+  border-color: rgb(225, 224, 224);
+  height: 3.5em;
+    width: 3.5em;
+    border-radius: 0%;
+}
+
+.btn-arrow:hover {
+  background-color: #B9B4C7;
+  border-color: #B9B4C7;
+}
+
+.projectLine {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+
+/* CONTACT */
+
+
