@@ -28,10 +28,11 @@ import coralReefs from "./media/coral-reefs.png"
 import nyuadPerformingArtsPoster from "./media/nyuad-performing-arts-poster.png"
 import nyuadNationalDayPoster from "./media/nyuad-national-day.jpg"
 import doYouEvenCare from "./media/do-you-even-care.png"
+import healthFirstAI from "./media/health-first-ai.png"
 
 export const webDevNDes = [
   {
-    id: 7,
+    id: 8,
     name: "Coral Reefs Gone Wild",
     date: "march 2024",
     role: "p5.js, HTML, CSS",
@@ -39,6 +40,16 @@ export const webDevNDes = [
     description:
       "inspired by movement patterns of coral reefs, this project utilizes coding techniques & physics to mimic the organic movements.",
     link: "https://editor.p5js.org/zhuanya28/full/YtedjLJwr",
+  },
+  {
+    id: 7,
+    name: "HealthFirstAI",
+    date: "june-october 2023",
+    role: "Figma",
+    media: healthFirstAI,
+    description:
+      "designing a website for HealthFirstAI startup.",
+    link: "https://www.figma.com/file/JYW5fl6tjMUEFV4Dtnq6rq/web-app-mockup?type=design&node-id=0%3A1&mode=design&t=v9RrtWFGP0EVdVgy-1",
   },
   {
     id: 6,
